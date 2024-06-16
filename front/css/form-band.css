@@ -28,6 +28,11 @@
   text-align: center;
 }
 
+/* 로그인 제목 */
+#login-title {
+  color: var(--title-font-color);
+}
+
 /* 목록 태그 도트 제거 */
 .not-dot {
   list-style: none;
@@ -65,6 +70,6 @@ a {
 
 /* 회원가입 링크 */
 #sign-up-link {
-  color: var(--frist-bend-font-color);
+  color: var(--sign-up-font-color);
   font-weight: bold;
 }
