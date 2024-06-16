@@ -12,7 +12,7 @@
 }
 
 /* 화면에서 요소 숨기기 및 스크린 리더 노출 */
-.sr-only {
+header .sr-only {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -24,7 +24,7 @@
 }
 
 /* BAND 로고 */
-.band-logo {
+header .band-logo {
   text-align: center;
 }
 
@@ -42,6 +42,8 @@
 /* 휴대폰 번호 로그인 박스 */
 .phone-login-box {
   background-color: var(--white-font-color);
+  border: 1px solid var(--login-green-color);
+  border-radius: 8px;
 }
 /* 휴대폰 번호 로그인 */
 #phone-number-login {
@@ -59,23 +61,25 @@
 .another-li {
   color: var(--white-font-color);
 }
-
-
 /* 이메일 로그인 박스 */
 .email-login-box {
   background-color: var(--login-gray-color);
+  border-radius: 8px;
 }
 /* 네이버 로그인 박스 */
 .naver-login-box {
   background-color: var(--login-green-color);
+  border-radius: 8px;
 }
 /* 페이스북 로그인 박스 */
 .facebook-login-box {
   background-color: var(--login-blue-color);
+  border-radius: 8px;
 }
 /* 애플 로그인 박스 */
 .apple-login-box {
   background-color: var(--login-black-color);
+  border-radius: 8px;
 }
 
 
