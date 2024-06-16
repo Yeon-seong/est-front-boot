@@ -31,25 +31,25 @@
         <!-- 로그인 제목 -->
         <h2 class="login-title">로그인</h2>
 
-        <!-- css로 li 도트 지우기 -->
+        <!-- css로 지운 li 도트 -->
         <ul class="not-dot">
           <!-- 휴대폰 번호 로그인 -->
           <li>
             <a href="https://auth.band.us/phone_login?keep_login=false">
               <img src="../src/band/phone.png" alt="휴대폰 아이콘">
-              휴대폰 번호로 로그인
+              <span id="phone-number-login">휴대폰 번호로 로그인</span>
             </a>
           </li>
   
           <!-- 또는 옆에 중간선은 css로 추가 -->
-          <span>또는</span>
+          <span class="orLine">또는</span>
   
         <!-- 다른 방법으로 로그인 목록, css로 링크 밑줄 지우기 -->
           <!-- Email 로그인 -->
           <li>
             <a href="https://auth.band.us/email_login?keep_login=false">
               <img src="../src/band/email.png" alt="이메일 아이콘">
-              이메일로 로그인
+              <span class="another-li">이메일로 로그인</span>
             </a>
           </li>
 
@@ -57,7 +57,7 @@
           <li>
             <a href="https://nid.naver.com/oauth2.0/authorize?svctype=0&response_type=code&client_id=C9hwybENgOtF&state=ZCQW445A27JPLQ6CSYRXL7DK6NTM5L5OEFSP7D2K4D2A6EFRFNYB3RNIUOED34OQVPV26ERYKZIWM===&redirect_url=https%3A%2F%2Fauth.band.us%2Fexternal_account_login%3Ftype%3Dnaver">
               <img src="../src/band/naver.png" alt="네이버 아이콘">
-              네이버로 로그인
+              <span class="another-li">네이버로 로그인</span>
             </a>
           </li>
 
@@ -65,7 +65,7 @@
           <li>
             <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=439691136064581&kid_directed_site=0&app_id=439691136064581&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv14.0%2Fdialog%2Foauth%3Fclient_id%3D439691136064581%26state%3DEVR5X2LQE44YJQIT6D4GU2FAQWCIIQYEG7C36NEEEG3HMO23NFDMUNVDUZSSBMIYSNSLWYCIVFSSK%253D%253D%253D%26redirect_uri%3Dhttps%253A%252F%252Fauth.band.us%252Fexternal_account_login%253Ftype%253Dfacebook%26scope%3Demail%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D9535d6d5-6322-419f-829b-465c06c4551b%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fauth.band.us%2Fexternal_account_login%3Ftype%3Dfacebook%26error%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3DEVR5X2LQE44YJQIT6D4GU2FAQWCIIQYEG7C36NEEEG3HMO23NFDMUNVDUZSSBMIYSNSLWYCIVFSSK%253D%253D%253D%23_%3D_&display=page&locale=ko_KR&pl_dbl=0">
               <img src="../src/band/facebook.png" alt="페이스북 아이콘">
-              페이스북으로 로그인
+              <span class="another-li">페이스북으로 로그인</span>
             </a>
           </li>
 
@@ -73,18 +73,18 @@
           <li>
             <a href="https://appleid.apple.com/auth/authorize?client_id=com.nhncorp.m2app.svc&response_type=code&scope=name%20email&response_mode=form_post&state=D24VD4PNGSIMG5AO3SDROMNFBA4JFIT3443VTSYIPOBB6WACJ7O6NXWCY5FLRT5WR4VVJWF2PXK4O===&redirect_uri=https%3A%2F%2Fauth.band.us%2Fexternal_account_callback%3Ftype%3Dapple&nonce=D24VD4PNGSIMG5AO3SDROMNFBA4JFIT3443VTSYIPOBB6WACJ7O6NXWCY5FLRT5WR4VVJWF2PXK4O===">
               <img src="../src/band/apple.png" alt="애플 아이콘">
-              애플로 로그인
+              <span class="another-li">애플로 로그인</span>
             </a>
           </li>
         </ul>
   
         <!-- 로그인 상태 유지 -->
-        <span>로그인 상태 유지</span>
+        <span class="stay-signed-in">로그인 상태 유지</span>
   
         <!-- 회원가입 굵은 글씨는 css로 bold 처리하기 -->
         <p>
-          밴드가 처음이신가요?
-          <span>회원가입</span>
+          <span id="frist-bend">밴드가 처음이신가요?</span>
+          <span id="sign-up-link">회원가입</span>
         </p>
       </div>
     </section>

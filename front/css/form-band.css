@@ -1,3 +1,16 @@
+/* root : var() 변수를 사용한 사용자 지정 색상 */
+:root {
+  --title-font-color: #222222;
+  --lightgray-font-color: #A8A8A8;
+  --white-font-color: #FFFFFF;
+  --frist-bend-font-color: #555555;
+  --sign-up-font-color: #333333;
+  --login-green-color: #0dcb67;
+  --login-gray-color: #83879b;
+  --login-blue-color: #226eff;
+  --login-black-color: #000000;
+}
+
 /* 화면에서 요소 숨기기 및 스크린 리더 노출 */
 .sr-only {
   position: absolute;
@@ -20,7 +33,38 @@
   list-style: none;
 }
 
+/* 휴대폰 번호 로그인 */
+#phone-number-login {
+  color: var(--login-green-color);
+}
+
+/* 또는 */
+.orLine {
+  color: var(--login-gray-color);
+  font-weight: bold;
+}
+
+/* 다른 로그인 방식 */
+.another-li {
+  color: var(--white-font-color);
+}
+/* 로그인 상태 유지 */
+.stay-signed-in {
+  color: var(--login-gray-color);
+}
+
 /* 링크 밑줄 제거 */
 a {
   text-decoration-line: none;
+}
+
+/* 밴드가 처음이신가요? */
+#frist-bend {
+  color: var(--frist-bend-font-color);
+}
+
+/* 회원가입 링크 */
+#sign-up-link {
+  color: var(--frist-bend-font-color);
+  font-weight: bold;
 }
