@@ -1,3 +1,15 @@
+/* 화면에서 요소 숨기기 및 스크린 리더 노출 */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+}
+
 /* BAND 로고 */
 .band-logo {
   text-align: center;
