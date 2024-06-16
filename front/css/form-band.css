@@ -38,6 +38,11 @@
   list-style: none;
 }
 
+
+/* 휴대폰 번호 로그인 박스 */
+.phone-login-box {
+  background-color: var(--white-font-color);
+}
 /* 휴대폰 번호 로그인 */
 #phone-number-login {
   color: var(--login-green-color);
@@ -49,10 +54,34 @@
   font-weight: bold;
 }
 
+
 /* 다른 로그인 방식 */
 .another-li {
   color: var(--white-font-color);
 }
+
+
+/* 이메일 로그인 박스 */
+.email-login-box {
+  background-color: var(--login-gray-color);
+}
+/* 네이버 로그인 박스 */
+.naver-login-box {
+  background-color: var(--login-green-color);
+}
+/* 페이스북 로그인 박스 */
+.facebook-login-box {
+  background-color: var(--login-blue-color);
+}
+/* 애플 로그인 박스 */
+.apple-login-box {
+  background-color: var(--login-black-color);
+}
+
+
+
+
+
 /* 로그인 상태 유지 */
 .stay-signed-in {
   color: var(--login-gray-color);
