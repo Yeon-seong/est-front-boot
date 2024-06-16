@@ -14,3 +14,8 @@
 .band-logo {
   text-align: center;
 }
+
+/* 링크 밑줄 제거 */
+a {
+  text-decoration-line: none;
+}
