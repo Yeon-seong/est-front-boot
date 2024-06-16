@@ -15,6 +15,11 @@
   text-align: center;
 }
 
+/* 목록 태그 도트 제거 */
+.not-dot {
+  list-style: none;
+}
+
 /* 링크 밑줄 제거 */
 a {
   text-decoration-line: none;
