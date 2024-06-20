@@ -28,6 +28,45 @@
         font-weight: bold;
       }
 
+
+      /* wrap, left-side, center, right-side 클래스 선택 */
+      .wrap, .left-side, .center, .right-side {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      /* .left-side : 세로(column) 방향 주축을 기준으로 위에서 아래로 정렬 */
+      .left-side {
+        flex-direction: column;
+      }
+
+      /* .center : 세로(column) 방향 주축을 기준으로 위에서 아래로 정렬 */
+      .center {
+        flex-direction: column;
+      }
+
+      /* .right-side : 세로(column) 방향 주축을 기준으로 아래에서 위로 정렬 */
+      .right-side {
+        flex-direction: column-reverse;
+      }
+
+
+      /* left-side 클래스의 직계 자손인 p태그 모두 선택 */
+      .left-side > p {
+        color: hotpink;
+      }
+
+      /* center-side 클래스의 직계 자손인 p태그 모두 선택 */
+      .center > p {
+        color: lemonchiffon;
+      }
+
+      /* right-side 클래스의 직계 자손인 p태그 모두 선택 */
+      .right-side > p {
+        color: turquoise;
+      }
+
+
       /* 파란색 상자 : A, D, F */
       .blue {
         background: royalblue;
