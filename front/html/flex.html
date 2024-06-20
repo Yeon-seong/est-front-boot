@@ -5,9 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flex 페이지</title>
-    <style></style>
+    <style>
+      /* 글자가 들어간 상자 */
+      p {
+        margin: 0;
+      }
+
+      /* 글자가 들어간 상자 전체를 덮는 랩 */
+      .wrap {
+        background: #ddd;
+        width: 350px;
+        height: 300px;
+      }
+
+      /* 상자 전체에 들어간 중복 클래스 */
+      .box {
+        width: 50px;
+        height: 50px;
+        color: #fff;
+        text-align: center;
+        line-height: 50px;
+        font-weight: bold;
+      }
+
+      /* 파란색 상자 : A, D, F */
+      .blue {
+        background: royalblue;
+      }
+
+      /* 연어색 상자 : B, G */
+      .pink {
+        background: salmon;
+      }
+
+      /* 황금색 상자 : C, E, H */
+      .yellow {
+        background: gold;
+      }
+    </style>
   </head>
   <body>
-    <h1>Display : Flex 속성을 사용한 페이지 제작</h1>
+    <header>
+      <h1>Display : Flex 속성을 사용한 페이지 제작 연습</h1>
+    </header>
+    <div class="wrap">
+      <!-- 왼쪽에 정렬할 상자 -->
+      <div class="left-side">
+        <p class="box blue new">A</p>
+        <p class="box pink">B</p>
+        <p class="box yellow">C</p>
+      </div>
+      <!-- 가운데에 정렬할 상자 -->
+      <div class="center">
+        <p class="box blue">D</p>
+        <p class="box yellow">E</p>
+      </div>
+      <!-- 오른쪽에 정렬할 상자 -->
+      <div class="right-side">
+        <p class="box blue">F</p>
+        <p class="box pink">G</p>
+        <p class="box yellow">H</p>
+      </div>
+  </div>
   </body>
 </html>
