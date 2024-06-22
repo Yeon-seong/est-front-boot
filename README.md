@@ -1,4 +1,4 @@
-# [ESTsoft] 프론트엔드 개발 연습
+# [ESTsoft] 프론트엔드 개발 연습🙋
 > EST 프론트엔드 개발자 오르미 1기 부트캠프 강의를 바탕으로 연습한 페이지를 모아놓은 저장소입니다.
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&weight=500&height=200&section=header&text=☀One•More•Step☀&fontSize=60)
@@ -19,48 +19,48 @@
 > 연습 페이지에 대해 상세하게 설명한 토글입니다.
 ### 자기소개
 <details>
-	<summary>토글 접기/펼치기</summary>
+	<summary>상세 설명 토글 접기/펼치기</summary>
   	<div markdown="1">
-      <!-- 자기소개 페이지 이미지 -->
+      <!-- 자기소개 페이지 이미지 삽입 -->
   	</div>
 </details>
 
 ### 캐릭터 소개표
 <details>
-	<summary>토글 접기/펼치기</summary>
+	<summary>상세 설명 토글 접기/펼치기</summary>
   	<div markdown="1">
-      <!-- 캐릭터 소개표 페이지 이미지 -->
+      <!-- 캐릭터 소개표 페이지 이미지 삽입 -->
   	</div>
 </details>
 
 ### 로그인 폼
 <details>
-	<summary>토글 접기/펼치기</summary>
+	<summary>상세 설명 토글 접기/펼치기</summary>
   	<div markdown="1">
-      <!-- 로그인 폼 페이지 이미지 -->
+      <!-- 로그인 폼 페이지 이미지 삽입 -->
   	</div>
 </details>
 
 ### 회원가입 폼
 <details>
-	<summary>토글 접기/펼치기</summary>
+	<summary>상세 설명 토글 접기/펼치기</summary>
   	<div markdown="1">
-      <!-- 설문조사 폼 페이지 이미지 -->
+      <!-- 회원가입 폼 페이지 이미지 삽입 -->
   	</div>
 </details>
 
 ### BAND 로그인
 <details>
-	<summary>토글 접기/펼치기</summary>
+	<summary>상세 설명 토글 접기/펼치기</summary>
   	<div markdown="1">
-      <!-- BAND 로그인 페이지 이미지 -->
+      <!-- BAND 로그인 페이지 이미지 삽입 -->
   	</div>
 </details>
 
 ### 섹션 나누기
 <details>
-	<summary>토글 접기/펼치기</summary>
+	<summary>상세 설명 토글 접기/펼치기</summary>
   	<div markdown="1">
-      <!-- 섹션 나누기 페이지 이미지 -->
+      <!-- 섹션 나누기 페이지 이미지 삽입 -->
   	</div>
 </details>
