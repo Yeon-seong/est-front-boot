@@ -1,18 +1,18 @@
 # [ESTsoft] 프론트엔드 개발 연습
-> 프론트엔드 개발자 오르미 1기 부트캠프 강의 내용을 바탕으로 연습한 페이지를 모아놓은 저장소입니다.
+> EST 프론트엔드 개발자 오르미 1기 부트캠프 강의를 바탕으로 연습한 페이지를 모아놓은 저장소입니다.
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&weight=500&height=200&section=header&text=☀One•More•Step☀&fontSize=60)
 
 ## 목차
 > 연습 페이지를 모아놓은 표입니다.
 
-|제목|내용|설명|사용 스탯|
+|페이지명| HTML 파일명|내용|사용 스탯|
 |:---:|:---:|:---:|:---:|
-|연습 페이지 제목1|내용1|설명1|HTML5, CSS3|
-|연습 페이지 제목2|내용2|설명2|HTML5, CSS3|
-|연습 페이지 제목3|내용3|설명3|HTML5, CSS3|
-|연습 페이지 제목4|내용4|설명4|HTML5, CSS3|
-|연습 페이지 제목5|내용5|설명5|HTML5, CSS3|
+|자기소개 페이지|about-me.html|프론트엔드 개발자, 이다빈을 소개하는 페이지|HTML5, CSS3|
+|캐릭터 소개표 페이지|form.html|지구의 명소를 여행하기 위해 사계절 행성에서 찾아온 둥물 친구들, 놀시즌을 소개하는 페이지|HTML5, CSS3|
+|로그인 페이지|login.html|미니 로그인 페이지|HTML5, CSS3|
+|회원가입 폼 페이지|form.html|로그인, 회원가입 섹션이 동시에 들어간 페이지|HTML5, CSS3|
+|섹션 나누기 페이지|sections.html|시맨틱 태그와 CSS 스타일을 활용하여 헤더-섹션-푸터로 나눈 페이지|HTML5, CSS3|
 
 
 ## 더 보기
