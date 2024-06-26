@@ -1,10 +1,9 @@
+/* ==================== 섹션 ==================== */
 section {
   width: 100vw;
   height: 100vh;
   background-color: #eee;
 }
-
-
 /* ============ 시계 컨테이너 ============ */
 section > .clock-container {
   position: relative;
@@ -17,30 +16,26 @@ section > .clock-container {
   border: 1rem solid black;
   background-color: #fff;
 }
-
-
 /* ============ 시계침 전체 ============ */
 section > article > div {
   position: absolute;
+  width: 1rem;
   top: 50%;
   left: 50%;
   border-radius: 1rem;
 }
 /* ============ 시침 ============ */
 section > article > .hour {
-  width: 1rem;
-  height: 25rem;
+  height: 30rem;
   background-color: blue;
 }
 /* ============ 분침 ============ */
 section > article > .minute {
-  width: 1rem;
-  height: 20rem;
+  height: 25rem;
   background-color: red;
 }
 /* ============ 초침 ============ */
 section > article > .second {
-  width: 1rem;
-  height: 15rem;
+  height: 20rem;
   background-color: green;
 }
